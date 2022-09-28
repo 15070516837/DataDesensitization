@@ -16,7 +16,6 @@ import lombok.Data;
 @Data
 public class User {
 
-    @DataMasking(maskFunc = DataMaskingFuncEnum.ALL_MASK)
     private Integer age;
 
     @DataMasking(maskFunc = DataMaskingFuncEnum.NO_MASK)
